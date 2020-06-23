@@ -1,0 +1,7 @@
+<h1>Airlines</h1>
+    <ul>
+        <% @airlines.each do | a | %>
+            <li><a href= "/single_airline/<%=a.id%>"> <%= a.name %></a></li>
+            <% end %>
+        
+    </ul>
